@@ -9,32 +9,24 @@
 Pod::Spec.new do |s|
   s.name             = "JSDateFormatter"
   s.version          = "0.1.0"
-  s.summary          = "A short description of JSDateFormatter."
+  s.summary          = "JSDateFormatter is an easy extension to NSDate which allows the user to render NSDates as human readable strings"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "JSDateFormatter is an easy extension to NSDate which allows the user to render NSDates as human readable strings. \n To use, import <JSDateFormatter/JSDateFormatter.h> and call either formattedTimeStringWithDate or formattedDateStringWithDate on your NSDate."
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JSDateFormatter"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/jessie-serrino/JSDateFormatter"
   s.license          = 'MIT'
-  s.author           = { "Jessie Serrino" => "Jserrino@onjack.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JSDateFormatter.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Jessie Serrino" => "jessie@serrino.co" }
+  s.source           = { :git => "https://github.com/jessie-serrino/JSDateFormatter.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'JSDateFormatter' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

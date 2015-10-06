@@ -7,9 +7,7 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+To use, import `<JSDateFormatter/JSDateFormatter.h>`. You can then use the method `+ (NSString *) formattedTimeStringWithDate: (NSDate *) date` or `+ (NSString *) formattedDateStringWithDate: (NSDate *) date`.
 
 ## Installation
 
